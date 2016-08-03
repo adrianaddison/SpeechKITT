@@ -584,7 +584,7 @@
      *
      * @method annyang
      */
-    annyang: function() {
+    annyang: function(annyang) {
       this.setStartCommand(annyang.start);
       this.setAbortCommand(annyang.abort);
       annyang.addCallback('start', this.onStart);
